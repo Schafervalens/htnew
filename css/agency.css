@@ -143,6 +143,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #fed136;
+  font:bold;
 }
 
 @media (min-width: 992px) {
@@ -176,7 +177,6 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/ht/pending/grub.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -203,6 +203,7 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 25px;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
